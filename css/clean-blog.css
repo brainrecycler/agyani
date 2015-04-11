@@ -146,7 +146,7 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: white;
+  color:black;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -399,6 +399,7 @@ footer .footer-above {
 
 footer .footer-col {
     margin-bottom: 50px;
+    
 }
 
 footer .footer-below {
@@ -438,4 +439,15 @@ footer .footer-below {
     border-radius: 100%;
     font-size: 20px;
     line-height: 28px;
+}
+.inlineimage{
+float:left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border: solid 1px;
+    padding: 4px;
+}
+.reference{
+color: #A3C2C2;
+    font-size: 12px;
 }
