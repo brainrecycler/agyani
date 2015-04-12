@@ -5,8 +5,10 @@
  */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+font-family: 'lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: :16px;
   color: #404040;
 }
 p {
@@ -39,6 +41,8 @@ a img:focus {
 blockquote {
   color: #808080;
   font-style: italic;
+    font-size: 16px;
+    line-height: 1.6;
 }
 hr.small {
   max-width: 100px;
@@ -55,7 +59,7 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 900;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
