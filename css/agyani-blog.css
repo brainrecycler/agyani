@@ -233,7 +233,7 @@ hr.small {
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 8px;
   font-style: italic;
   margin-top: 0;
 }
@@ -453,4 +453,13 @@ float:left;
 .reference{
 color: #A3C2C2;
     font-size: 12px;
+}
+
+#border{
+align-content: center;
+border-style: solid;
+border-width: 1px;
+border-color: #E6E6E6;
+border-radius: 5px;
+padding: 20px;
 }
