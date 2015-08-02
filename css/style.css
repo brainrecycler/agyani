@@ -71,7 +71,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #2c3e50;
-    background-color: #fff;
+    background-color{ :fff, opacity: .4};
 }
 
 .img-centered {
@@ -181,6 +181,9 @@ section h2 {
 section.success {
     color: #fff;
     background: #18bc9c;
+}
+section.blog{
+
 }
 
 @media(max-width:767px) {
@@ -462,4 +465,21 @@ border-width: 1px;
 border-color: #E6E6E6;
 border-radius: 5px;
 padding: 20px;
+}
+    
+.reference{
+color: #A3C2C2;
+font-size: 12px;
+}
+
+
+.intro-header {
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
 }
