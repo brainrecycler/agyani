@@ -24,7 +24,7 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 500;
 }
 a {
   color: #404040;
@@ -150,6 +150,7 @@ hr.small {
 .intro-header .page-heading {
   padding: 100px 0 50px;
   color:black;
+  text-shadow: 0 0 4px white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -194,7 +195,7 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .intro-header .post-heading .meta {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -203,7 +204,7 @@ hr.small {
   font-size: 20px;
 }
 .intro-header .post-heading .meta a {
-  color: white;
+  color: black;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
